@@ -126,13 +126,13 @@ This upfront prediction enables targeted exploration and prevents wasted effort.
 
 ### 2. Advanced Web Search Pipeline
 
-Our web search is a sophisticated multi-round research system:
+Our web search is a sophisticated multi-round research system using SERP instead of vendor provided websearch:
 
 #### Search Strategy
 - **Query Generation**: Claude Sonnet 4.5 builds highly specific, low-frequency search terms
 - **Platform Bias**: Prioritize GitHub/StackOverflow for actionable commands
 - **Google AI Overview**: Extract Google's AI-generated summaries (remarkably effective)
-- **Deep Link Exploration**: Analyze top 3 links per query
+- **Deep Link Exploration**: Analyze top 3 google links per query
 - **Multi-Round**: Up to 3 rounds of searching and analysis
 - **Quality Control**: Filter out any Terminal Bench mentions
 
