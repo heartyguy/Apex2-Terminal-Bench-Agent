@@ -251,7 +251,7 @@ Prevents premature task completion by checking for:
    - Multimodal prediction avoids unnecessary analysis
 
 2. **Google AI Overview in Search**
-   - Often contains exact solutions
+   - Often contains highly relevant solutions. better than web search capabilities provided by vendors
    - Synthesizes multiple sources effectively
    - Provides context beyond individual links
 
