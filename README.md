@@ -187,7 +187,7 @@ This creates an **optimized context** for Episode 2 execution.
 
 ### 6. Risk-Aware Category Prompting
 
-Rather than providing concrete commands, we focus on **high-consequence operations** and **common failure states**:
+Rather than providing concrete commands/strategy, we focus on **high-consequence operation management** and **common failure states**:
 
 #### ML Tasks
 - **Key insight**: Training runs can exceed 5 minutes
@@ -197,7 +197,7 @@ Rather than providing concrete commands, we focus on **high-consequence operatio
 #### Security Tasks  
 - **Key insight**: Many operations are irreversible
 - **Approach**: Ground exact sequences before execution
-- **Example**: Verify backups before attempting destructive exploits
+- **Example**: Verify backups before attempting destructive commands
 
 ### 7. Execution Optimization Suite
 
