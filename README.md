@@ -209,6 +209,8 @@ def main():
     print("Hello World")
 EOF
 ```
+- Optimized prompt for Heredoc commands
+- Automatic Heredoc repair
 - Automatic indentation repair
 - Proper escaping for special characters
 
