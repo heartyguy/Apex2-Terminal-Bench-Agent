@@ -2,7 +2,7 @@
 
 **Achieved #1 on Stanford's Terminal Bench Leaderboard** 🏆
 
-New SOTA: **65.0% average** success rate (5 runs, 80 tasks each), surpassing Terminus 2 with Claude Sonnet 4.5 by **14 percentage points**.
+New SOTA: **64.50% ± 1.77** success rate (5 runs, 80 tasks each), surpassing Terminus 2 with Claude Sonnet 4.5 by **14 percentage points**.
 
 ## Overview
 
@@ -10,28 +10,67 @@ Apex2 represents a fundamental rethinking of agentic coding systems. Through str
 
 ## Results
 
-### Claude Sonnet 4.5 Submission
-**Single Submission (5-run average): 64.50% ± 1.77**
+### Performance Summary
 
-| Run | Success Rate | Tasks |
-|-----|-------------|-------|
-| apex2-sonnet-4-5-rc9-1 | 62.50% | 80 |
-| apex2-sonnet-4-5-rc9-2 | 63.75% | 80 |
-| apex2-sonnet-4-5-rc9-3 | 65.00% | 80 |
-| apex2-sonnet-4-5-rc9-4 | **66.25%** | 80 |
-| apex2-sonnet-4-5-rc9-5 | 65.00% | 80 |
+**Apex2 achieves 64.50% accuracy with Claude Sonnet 4.5, surpassing the current #1 (Ante at 60.3%) by 4.2 percentage points.**
 
-### GPT-5 Submission
-*[Results pending]*
+### Apex2 Submissions
 
-### Comparison with Previous SOTA
+#### Claude Sonnet 4.5 
+**5-run average: 64.50% ± 1.77%**
 
-| Agent | Model | Success Rate | Improvement |
-|-------|-------|--------------|-------------|
-| **Apex2** | Claude Sonnet 4.5 | **64.50% ± 1.77%** | +13.5% |
-| Terminus 2 | Claude Sonnet 4.5 | 51.0% ± 0.8% | - |
+| Run | Success Rate |
+|-----|-------------|
+| apex2-sonnet-4-5-rc9-1 | 62.50% |
+| apex2-sonnet-4-5-rc9-2 | 63.75% |
+| apex2-sonnet-4-5-rc9-3 | 65.00% |
+| apex2-sonnet-4-5-rc9-4 | **66.25%** |
+| apex2-sonnet-4-5-rc9-5 | 65.00% |
 
-Using the same base model, Apex2 achieves a **26% relative improvement** over Terminus 2.
+#### GPT-5
+**5-run average: 49.25% ± 1.39%**
+
+| Run | Success Rate |
+|-----|-------------|
+| apex2-gpt-5-1 | 50.00% |
+| apex2-gpt-5-2 | 48.75% |
+| apex2-gpt-5-3 | 50.00% |
+| apex2-gpt-5-4 | 50.00% |
+| apex2-gpt-5-5 | 47.50% |
+
+### Model Comparisons
+
+#### Claude Sonnet 4.5 Agents
+
+| Agent | Accuracy |
+|-------|----------|
+| **Apex2** | **64.50% ± 1.77%** |
+| Ante (Previous SOTA) | 60.3% ± 1.1% |
+| Droid | 57.5% ± 0.8% |
+| Chaterm | 52.5% ± 0.5% |
+| Terminus 2 | 51.0% ± 0.8% |
+
+#### GPT-5 Agents
+
+| Agent | Accuracy |
+|-------|----------|
+| Droid | 52.5% ± 2.1% |
+| **Apex2** | **49.25% ± 1.39%** |
+| Codex CLI | 42.8% ± 2.1% |
+| Terminus 2 | 41.3% ± 1.1% |
+
+#### Other Notable Results
+
+| Agent | Model | Accuracy |
+|-------|-------|----------|
+| Droid | Claude Opus 4.1 | 58.8% ± 0.9% |
+| Warp | Multiple | 52.0% ± 1.0% |
+| Claude Code | Claude Opus 4 | 43.2% ± 1.3% |
+| Droid | Claude Sonnet 4 | 50.5% ± 1.4% |
+
+### Leaderboard Position
+
+*[Leaderboard screenshot to be inserted]*
 
 ## Architecture: Strategic Simplification
 
