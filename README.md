@@ -318,7 +318,7 @@ Apex2 addresses each through:
 ### The Power of Intelligence Synthesis
 
 While others use parallel execution for multiple attempts, we use it for **diverse intelligence gathering**:
-- Execution provides ground truth
+- Execution provides quick feedbacks for obvious solution from env
 - Web search provides solutions
 - Strategy provides alternatives
 - Environment provides context for immediate execution
