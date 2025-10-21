@@ -138,7 +138,7 @@ Our web search is a sophisticated multi-round research system:
 
 #### Why This Works
 - Low-frequency terms find exact solutions rather than generic tutorials
-- Google AI Overview often contains the exact answer
+- Google AI Overview often contains highly actionable answer that is in the right direction
 - GitHub/StackOverflow bias provides working code
 - Multi-round searching handles complex, multi-step problems
 
