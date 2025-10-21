@@ -11,7 +11,7 @@ Apex2 represents a fundamental rethinking of agentic coding systems. Through str
 ## Results
 
 ### Claude Sonnet 4.5 Submission
-**Single Submission (5-run average): 65.0% ± 1.4%**
+**Single Submission (5-run average): 64.50% ± 1.77**
 
 | Run | Success Rate | Tasks |
 |-----|-------------|-------|
