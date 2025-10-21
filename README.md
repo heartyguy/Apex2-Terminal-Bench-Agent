@@ -169,10 +169,10 @@ This leads to **exploration agent** identifying critical unknowns to test via Do
 ### 4. Deep Strategy Generation
 
 Strategy generation focuses on extracting everything the LLM knows:
-- **Knowledge extraction**: Multiple prompts to surface related knowledge
+- **Knowledge extraction**: prompt to surface related knowledge. The SOTA models really have the answers. You just need to extract the insights out of them.
 - **Alternative approaches**: Two carefully thought-through command sequences
 - **Risk assessment**: Identify high-consequence operations
-- **Common failures**: Known failure modes for this task type
+- **Common failures**: Known failure modes for this task type and remediation strategies
 
 ### 5. Strategy Synthesis
 
