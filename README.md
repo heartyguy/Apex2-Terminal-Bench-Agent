@@ -54,6 +54,7 @@ Parallel Intelligence Gathering
 │   ├── System state
 │   └── Key file contents
 └── Docker exploration agent (isolated testing)
+└── Optional multimodal analysis on images and videos
     ↓
 Strategy Synthesis (Combines all intelligence)
     ↓
