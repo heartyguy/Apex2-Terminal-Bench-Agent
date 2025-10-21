@@ -70,9 +70,8 @@ Continue with enriched context
 ### Why Single Model?
 
 We use Claude Sonnet 4.5 exclusively (with GPT-5 variant), which provides:
-- **Context caching** - Significant token reduction through conversation caching
 - **Consistency** - No coordination overhead between different models
-- **Simplicity** - Easier debugging and iteration
+- **Simplicity** - Easier debugging and iteration for model specific errors
 - **Cost efficiency** - Lower operational costs with caching
 
 ## Key Technical Innovations
