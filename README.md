@@ -92,7 +92,7 @@ Parallel Intelligence Gathering
 │   ├── Running processes
 │   ├── System state
 │   └── Key file contents
-└── Docker exploration agent (isolated testing)
+└── Exploration agent (explore unknowns from strategy)
 └── Optional multimodal analysis on images and videos
     ↓
 Strategy Synthesis (Combines all intelligence)
@@ -321,8 +321,8 @@ While others use parallel execution for multiple attempts, we use it for **diver
 - Execution provides ground truth
 - Web search provides solutions
 - Strategy provides alternatives
-- Environment provides context
-- Docker provides safe testing
+- Environment provides context for immediate execution
+- Exploration using Docker Execution provides some answers to unknowns in strategy without adding context in panes
 
 The synthesis of these perspectives creates superior execution context.
 
