@@ -2,7 +2,7 @@
 
 **Achieved #1 on Stanford's Terminal Bench Leaderboard** 🏆
 
-New SOTA: **64.50% ± 1.77** success rate (5 runs, 80 tasks each), surpassing Terminus 2 with Claude Sonnet 4.5 by **14 percentage points**.
+New SOTA: **64.50% ± 1.77** success rate (5 runs, 80 tasks each), surpassing Terminus 2 with Claude Sonnet 4.5 by **13.5 percentage points**.
 
 ## Overview
 
