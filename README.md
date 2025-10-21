@@ -27,16 +27,16 @@ Apex2 represents a fundamental rethinking of agentic coding systems. Through str
 | apex2-sonnet-4-5-rc9-4 | **66.25%** |
 | apex2-sonnet-4-5-rc9-5 | 65.00% |
 
-#### GPT-5
+#### GPT-5 on an earlier version of apex2
 **5-run average: 49.25% ± 1.39%**
 
 | Run | Success Rate |
 |-----|-------------|
-| apex2-gpt-5-1 | 50.00% |
-| apex2-gpt-5-2 | 48.75% |
-| apex2-gpt-5-3 | 50.00% |
-| apex2-gpt-5-4 | 50.00% |
-| apex2-gpt-5-5 | 47.50% |
+| apex2-gpt-5-rc3-1 | 50.00% |
+| apex2-gpt-5-rc3-2 | 48.75% |
+| apex2-gpt-5-rc3-3 | 50.00% |
+| apex2-gpt-5-rc3-4 | 50.00% |
+| apex2-gpt-5-rc3-5 | 47.50% |
 
 ### Model Comparisons
 
