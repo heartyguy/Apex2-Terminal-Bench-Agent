@@ -161,7 +161,7 @@ df -h
 free -m
 
 # Key file contents (from prediction phase)
-cat requirements.txt main.py Dockerfile 2>/dev/null
+cat requirements.txt main.py  
 ```
 
 This leads to **exploration agent** identifying critical unknowns to test via Docker container.
