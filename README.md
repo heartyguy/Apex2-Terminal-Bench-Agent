@@ -10,6 +10,8 @@ Apex2 represents a fundamental rethinking of agentic coding systems. Through str
 
 ## Results
 [Terminal Bench Leaderboard 11/03/25](https://web.archive.org/web/20251103212338/https://www.tbench.ai/leaderboard)
+[Apex2 Sonnet 4.5 Run Results](https://github.com/laude-institute/terminal-bench-leaderboard/pull/26)
+[Apex 2 Gpt 5 Run Results](https://github.com/laude-institute/terminal-bench-leaderboard/pull/27)
 ![Terminal Bench Leaderboard 11/03/25](https://github.com/heartyguy/Apex2-Terminal-Bench-Agent/blob/main/TB_Apex2_leaderboard_110325.png)
 
 ### Performance Summary
