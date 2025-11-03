@@ -9,6 +9,7 @@ New SOTA: **64.50% ± 1.77** success rate (5 runs, 80 tasks each), surpassing Te
 Apex2 represents a fundamental rethinking of agentic coding systems. Through strategic simplification and intelligent parallelization, we achieved state-of-the-art performance while reducing system complexity by 90%. Built as a weekend project, this work demonstrates that thoughtful architecture and sophisticated prompting beat complex multi-agent orchestration.
 
 ## Results
+[Terminal Bench Leaderboard 11/03/25](https://web.archive.org/web/20251103212338/https://www.tbench.ai/leaderboard)
 ![Terminal Bench Leaderboard 11/03/25](https://github.com/heartyguy/Apex2-Terminal-Bench-Agent/blob/main/TB_Apex2_leaderboard_110325.png)
 
 ### Performance Summary
